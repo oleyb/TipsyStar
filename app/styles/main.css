@@ -1,5 +1,10 @@
 /* Space out content a bit */
 
+.steps {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .gen {
   width: 90%;
 

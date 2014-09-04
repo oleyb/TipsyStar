@@ -1,9 +1,13 @@
 <div class="">
   <div class=""><a class="btn btn-lg btn-success btn-block gen" ng-href="#" ng-click="generate()"><span class="glyphicon glyphicon-refresh"></span> Let's Go!</a></div>
 
-  <div class="steps">
+  <div class="steps" ng-hide="showTut">
     <h1 ng-repeat="step in list track by $index" ng-class-odd="'step-odd'" ng-class-even="'step-even'" >{{step}}</h1>
   </div>
+
+  <h3 class="step-odd steps" ng-show="showTut">
+      Tipsy Star is an acro game played using variations of star and straddle throne poses. <br /><br /> Tap the "Let's Go!" button to receive a randomized list of steps. Complete each step on the screen and at the end either return to the beginning pose or go back through the list in reverse. The directions given are for which of the base's legs to use. 
+  </h1>
 
    
         
